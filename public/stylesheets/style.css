@@ -3,6 +3,59 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+h1 {
+  text-align: center;
+}
+
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+  font-size: 20px;
+}
+.newMessageBtn {
+  background-color: #0378a6;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  font-size: 18px;
+  padding: 5px 10px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px black;
+}
+.newMessageBtn:active {
+  box-shadow: none;
+}
+input {
+  font-size: 20px;
+}
+textarea {
+  font-size: 20px;
+}
+.messagesList {
+  font-size: 20px;
+}
+.messagesList > li {
+  list-style: none;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px 10px 5px 10px;
+  background-color: bisque;
+}
+
+label {
+  font-size: 20px;
+}
+
+.sendBtn {
+  padding: 5px 10px;
+  background-color: green;
+  color: rgb(255, 255, 255);
+  border: none;
+  font-size: 30px;
+  border-radius: 5px 10px 5px 10px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px black;
+}
+.sendBtn:active {
+  box-shadow: none;
 }

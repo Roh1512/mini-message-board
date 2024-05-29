@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    h2=title
+    form(action="/new" method="POST")
+        label(for="author")  Author : 
+        input(type="text" name="author" placeholder="Enter your name:")
+        br
+        br
+        label(for="message")  Message:
+        br
+        textarea(name="message", cols="30" rows="5" placeholder="Enter your message" overflow="hidden") 
+        br
+        button(type="submit" class="sendBtn") Send
